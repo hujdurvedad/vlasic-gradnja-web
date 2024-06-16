@@ -1,0 +1,9 @@
+.o-nama {
+    width: 100vw;
+    height: 80vh;
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
+}

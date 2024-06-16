@@ -1,0 +1,9 @@
+.usluge {
+    width: 100vw;
+    height: 50vh;
+    background-color: yellow;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
+}

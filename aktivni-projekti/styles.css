@@ -1,0 +1,9 @@
+.aktivni-projekti {
+    width: 100vw;
+    height: 80vh;
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
+}
