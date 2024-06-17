@@ -75,25 +75,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .icon h1 {
     font-size: 24px;
+    color: black;
 }
 
 .icon h2 {
     font-size: 20px;
+    color: black;
 }
 
 #icon_1 {
-    background-image: url(./o-nama_pozadina/Vector.png);
+    background-image: url(../sources/icons/o-nama_pozadina/Vector.png);
 }
 
 #icon_2 {
-    background-image: url(./o-nama_pozadina/Vector\ \(1\).png);
+    background-image: url(../sources/icons/o-nama_pozadina/Vector\ \(1\).png);
 }
 
 #icon_3 {
-    background-image: url(./o-nama_pozadina/Vector\ \(2\).png);
+    background-image: url(../sources/icons/o-nama_pozadina/Vector\ \(2\).png);
 }
