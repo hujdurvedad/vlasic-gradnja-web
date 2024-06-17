@@ -49,12 +49,12 @@
 
 .partneri .marquee::before {
   left: 0;
-  background: linear-gradient(to right, #f7f7f7, transparent);
+  background: linear-gradient(to right, #f7f7f7a4, transparent);
 }
 
 .partneri .marquee::after {
   right: 0;
-  background: linear-gradient(to left, #f7f7f7, transparent);
+  background: linear-gradient(to left, #f7f7f7a4, transparent);
 }
 
 .partneri .marquee-content {
