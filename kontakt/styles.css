@@ -55,7 +55,7 @@
 }
 
 .kontakt .wrapper {
-  width: 80vw;
+  width: 90vw;
   height: 70vh;
   margin-top: 80px;
   display: flex;
@@ -79,11 +79,11 @@
 
 .kontakt .contact-card .card-heading {
   font-family: Inter;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 600;
   text-align: left;
   color: #f7f7f7;
-  width: 60%;
+  width: 70%;
   margin: 48px 0 0 48px;
 }
 
@@ -102,6 +102,7 @@
   border: none;
   background: transparent;
   cursor: pointer;
+  position: relative;
   left: calc(100% - 320px);
-  top: calc(0% - 51px);
+  transform: translateY(-90%);
 }
