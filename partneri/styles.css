@@ -1,9 +1,67 @@
 .partneri {
-    width: 100vw;
-    height: 50vh;
-    background-color: orange;
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    font-size: 30px;
+  width: 100vw;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.partneri .heading {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: black;
+  margin: 40px 0;
+}
+
+.partneri .marquee {
+  height: 20vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.partneri .marquee img {
+  height: 16vh;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin: 0 20px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.partneri .marquee::before,
+.partneri .marquee::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.partneri .marquee::before {
+  left: 0;
+  background: linear-gradient(to right, #f7f7f7, transparent);
+}
+
+.partneri .marquee::after {
+  right: 0;
+  background: linear-gradient(to left, #f7f7f7, transparent);
+}
+
+.partneri .marquee-content {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.partneri .marquee-content img {
+  margin: 0 20px;
 }
