@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 70px;
+    padding: 40px 65px 0 65px;
 }
 
 * {
@@ -17,10 +18,15 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter";
+    transition: 0.3s;
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    border: none;
 }
 
 ::-webkit-scrollbar {
@@ -29,6 +35,6 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #064C32;
+    background-color: #146140;
     border-radius: 10000px;
 }

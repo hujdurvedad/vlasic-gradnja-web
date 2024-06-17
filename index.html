@@ -29,17 +29,36 @@
 </head>
 
 <body>
-    <div class="nav">NAV</div>
+    <div class="nav">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="./sources/icons/logo-no-text.png" alt="logo" class="nav-logo">
+            </a>
+        </div>
 
-    <section class="pocetna">POCETNA</section>
+        <div class="nav-container">
+            <a href="#pocetna" class="nav-link">Početna</a>
+            <a href="#o-nama" class="nav-link">O Nama</a>
+            <a href="#aktivni-projekti" class="nav-link">Aktivni projekti</a>
+            <a href="#zavrseni-projekti" class="nav-link">Završeni projekti</a>
+        </div>
 
-    <section class="o-nama">O NAMA</section>
+        <div class="button-container">
+            <a href="#kontakt">
+                <button class="nav-button">Kontaktirajte nas</button>
+            </a>
+        </div>
+    </div>
 
-    <section class="aktivni-projekti">AKTIVNI PROJEKTI</section>
+    <section class="pocetna" id="pocetna">POCETNA</section>
+
+    <section class="o-nama" id="o-nama">O NAMA</section>
+
+    <section class="aktivni-projekti" id="aktivni-projekti">AKTIVNI PROJEKTI</section>
 
     <section class="usluge">USLUGE</section>
 
-    <section class="zavrseni-projekti">ZAVRSENI-PROJEKTI</section>
+    <section class="zavrseni-projekti" id="zavrseni-projekti">ZAVRSENI-PROJEKTI</section>
 
     <section class="partneri">
         <h1 class="heading">Ponosni partneri</h1>
@@ -65,7 +84,7 @@
         </div>
     </section>
 
-    <section class="kontakt">KONTAKT</section>
+    <section class="kontakt" id="kontakt">KONTAKT</section>
 
     <section class="footer">
         <div class="footer-parent">
@@ -97,11 +116,11 @@
                 <div class="links">
                     <h4>Brzi linkovi</h4>
                     <div>
-                        <a href="../pocetna/index.html">Početna</a>
-                        <a href="../o-nama/index.html">O nama</a>
-                        <a href="../aktuelni-projekti/index.html">Aktivni projekti</a>
-                        <a href="../zavrseni-projekti/index.html">Završeni projekti</a>
-                        <a href="../kontakt/index.html">Kontakt</a>
+                        <a href="#pocetna">Početna</a>
+                        <a href="#o-nama">O nama</a>
+                        <a href="#aktivni-projekti">Aktivni projekti</a>
+                        <a href="#zavrseni-projekti">Završeni projekti</a>
+                        <a href="#kontakt">Kontakt</a>
                     </div>
                 </div>
                 <div class="contact">
@@ -129,6 +148,7 @@
         </div>
     </section>
 
+    <script src="./nav/script.js"></script>
     <script src="./partneri/script.js"></script>
 </body>
 
