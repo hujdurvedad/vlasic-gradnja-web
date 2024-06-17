@@ -1,0 +1,38 @@
+/*@media only screen and (max-width: 895px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left {
+        justify-content: center;
+    }
+
+    .left div {
+        width: 230px;
+    }
+
+    .informations h4 {
+        text-align: center;
+    }
+
+    .informations p {
+        text-align: center;
+    }
+
+    .links h4 {
+        text-align: left;
+    }
+
+    .contact h4,
+    p {
+        text-align: left;
+    }
+
+    .socials {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+    }
+}*/
