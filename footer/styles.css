@@ -76,14 +76,6 @@ p {
     gap: 70px;
 }
 
-.links a {
-    transition: 0.2s;
-}
-
-.links a:hover {
-    color: #9bcd48;
-}
-
 .informations div img {
     margin: 20px 0 5px;
 }
