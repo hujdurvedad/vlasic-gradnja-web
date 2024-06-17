@@ -18,3 +18,17 @@ body {
     box-sizing: border-box;
     font-family: "Inter";
 }
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #F7F7F7;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #064C32;
+    border-radius: 10000px;
+}
