@@ -1,25 +1,28 @@
 .o-nama {
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center
 }
-.o-nama_wrapper{
+
+.o-nama_wrapper {
     width: 90%;
     height: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.o-nama_img{
+
+.o-nama_img {
     width: 25%;
     height: 100%;
     border-radius: 50px;
     background-color: violet;
 }
-.o-nama_text{
+
+.o-nama_text {
     width: 70%;
     height: 100%;
     border-radius: 50px;
@@ -30,54 +33,67 @@
     align-items: center;
 }
 
-.o-nama_title h1{
+.o-nama_title h1 {
     font-size: 48px;
 }
-.o-nama_paragraph{
+
+.o-nama_paragraph {
     width: 75%;
     height: 20%;
 }
-.o-nama_paragraph p{
+
+.o-nama_paragraph p {
     font-size: 24px;
     color: black;
 }
-.icons{
+
+.icons {
     width: 70%;
     height: 55%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.icon{
+
+.icon {
     width: 29%;
-  height: 73%;
- background-size: cover;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
+    height: 73%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.icon_txt{
+
+.icon_txt {
     width: 80%;
     height: 40%;
     text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
-.icon h1{
+
+.icon h1 {
     font-size: 24px;
 }
-.icon h2{
+
+.icon h2 {
     font-size: 20px;
 }
-#icon_1{
+
+#icon_1 {
     background-image: url(./o-nama_pozadina/Vector.png);
 }
-#icon_2{
+
+#icon_2 {
     background-image: url(./o-nama_pozadina/Vector\ \(1\).png);
 }
-#icon_3{
+
+#icon_3 {
     background-image: url(./o-nama_pozadina/Vector\ \(2\).png);
 }
