@@ -1,101 +1,101 @@
 .o-nama {
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.o-nama_wrapper {
-    width: 90%;
-    height: 95%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.o-nama-wrapper {
+  width: 90%;
+  height: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.o-nama_img {
-    width: 25%;
-    height: 100%;
-    border-radius: 50px;
-    background-color: violet;
+.o-nama-img {
+  width: 25%;
+  height: 100%;
+  border-radius: 50px;
+  object-fit: cover;
 }
 
-.o-nama_text {
-    width: 70%;
-    height: 100%;
-    border-radius: 50px;
-    background-color: #F7F7F7;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.o-nama-text {
+  width: 70%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.o-nama_title h1 {
-    font-size: 48px;
+.o-nama-title h1 {
+  font-size: 48px;
 }
 
-.o-nama_paragraph {
-    width: 75%;
-    height: 20%;
+.o-nama-paragraph {
+  width: 75%;
+  height: 20%;
 }
 
-.o-nama_paragraph p {
-    font-size: 24px;
-    color: black;
+.o-nama-paragraph p {
+  font-size: 24px;
+  color: black;
 }
 
-.icons {
-    width: 70%;
-    height: 55%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.cards {
+  width: 70%;
+  height: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.icon {
-    width: 29%;
-    height: 73%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.card {
+  width: 29%;
+  height: 73%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon_txt {
-    width: 80%;
-    height: 40%;
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+.card-txt {
+  width: 80%;
+  height: 40%;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.icon h1 {
-    font-size: 24px;
-    color: black;
+.card h1 {
+  font-size: 24px;
+  color: black;
 }
 
-.icon h2 {
-    font-size: 20px;
-    color: black;
+.card h2 {
+  font-size: 20px;
+  color: black;
 }
 
-#icon_1 {
-    background-image: url(../sources/icons/o-nama_pozadina/Vector.png);
+#card-1 {
+  background-image: url(../sources/icons/shape-1.svg);
 }
 
-#icon_2 {
-    background-image: url(../sources/icons/o-nama_pozadina/Vector\ \(1\).png);
+#card-2 {
+  background-image: url(../sources/icons/shape-2.svg);
 }
 
-#icon_3 {
-    background-image: url(../sources/icons/o-nama_pozadina/Vector\ \(2\).png);
+#card-3 {
+  background-image: url(../sources/icons/shape-3.svg);
 }

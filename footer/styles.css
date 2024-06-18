@@ -1,99 +1,99 @@
 .footer {
-    background-color: #146140;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: #146140;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-parent {
-    width: 100vw;
-    min-height: 250px;
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 100px;
-    padding: 0 50px;
+  width: 100vw;
+  min-height: 250px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+  padding: 0 50px;
 }
 
 .footer a,
 p {
-    color: white;
-    font-size: 16px;
-    font-weight: 300;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .footer h4 {
-    font-size: 32px;
-    font-weight: 700;
-    color: white;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
 }
 
 .links,
 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .socials {
-    margin-top: 13px;
+  margin-top: 13px;
 }
 
 .socials a {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .social-logo {
-    height: 24px;
-    width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 .links div,
 .contact div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .informations h4 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .links h4,
 .contact h4 {
-    margin-top: -2px;
-    margin-bottom: 22px;
-    font-size: 24px;
+  margin-top: -2px;
+  margin-bottom: 22px;
+  font-size: 24px;
 }
 
 .left {
-    display: flex;
-    align-items: start;
-    flex-wrap: wrap;
-    gap: 70px;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 70px;
 }
 
 .informations div img {
-    margin: 20px 0 5px;
+  margin: 20px 0 5px;
 }
 
 .informations p {
-    width: 290px;
+  width: 290px;
 }
 
 .copyright {
-    width: 100vw;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .copyright p {
-    text-align: center;
-    font-size: 100%;
+  text-align: center;
+  font-size: 100%;
 }
