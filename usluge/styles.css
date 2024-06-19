@@ -22,14 +22,14 @@
   color: black;
   font-size: 20px;
 }
-.usluge_icons {
+.usluge-cards {
   width: 90%;
   height: 72%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
-.usluga_icon {
+.usluga-card {
   width: 22%;
   height: 100%;
   border-radius: 50px;
@@ -37,11 +37,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
 }
-.usluga_icon img {
+.usluga-card img {
   width: 60px;
   height: 60px;
+  margin-top: 80px;
 }
 .usluge_icons_text {
   width: 70%;
@@ -54,10 +54,12 @@
   font-size: 32px;
   color: black;
   align-self: center;
+  margin-top: 30px;
 }
 .usluge_icons_text p {
   font-size: 20px;
   color: black;
   align-self: flex-start;
   text-align: center;
+  margin-top: 30px;
 }
