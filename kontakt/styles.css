@@ -1,5 +1,5 @@
 .kontakt {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@
   width: 75vw;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 20px;
 }
 
@@ -43,9 +43,11 @@
   line-height: 38.73px;
   text-align: center;
   margin-top: 24px;
+  color: black;
 }
 
 .kontakt .card .card-text {
+  width: 100%;
   font-family: Inter;
   font-size: 20px;
   font-weight: 300;
@@ -56,54 +58,46 @@
 }
 
 .kontakt .wrapper {
-  width: 90vw;
-  height: 70vh;
+  width: 100%;
+  height: 650px;
   margin-top: 80px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.kontakt .wrapper img {
+.contact-card {
+  width: 65%;
   height: 100%;
-  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #146140;
+  padding: 48px;
   border-radius: 50px;
-  object-fit: cover;
 }
 
-.kontakt .contact-card {
-  width: 60%;
-  height: 100%;
-  border-radius: 50px;
-  background: #146140;
-}
-
-.kontakt .contact-card .card-heading {
-  font-family: Inter;
-  font-size: 80px;
-  font-weight: 600;
-  text-align: left;
-  color: #f7f7f7;
+.card-heading {
   width: 70%;
-  margin: 48px 0 0 48px;
+  font-size: 80px;
+  color: white;
 }
 
-.kontakt .contact-card .card-text {
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 200;
-  line-height: 29.05px;
-  text-align: left;
-  color: #f7f7f7;
-  width: 50%;
-  margin: 28px 0 28px 48px;
+.kontakt img {
+  border-radius: 50px;
 }
 
-.kontakt .contact-card .contact-button {
-  border: none;
+.contact-card-container {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.card-text {
+  width: 55%;
+  font-size: 24px;
+}
+
+.contact-button {
   background: transparent;
   cursor: pointer;
-  position: relative;
-  left: calc(100% - 320px);
-  transform: translateY(-90%);
 }
