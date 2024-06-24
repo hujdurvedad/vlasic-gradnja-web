@@ -1,0 +1,64 @@
+@media only screen and (max-width:1024px){
+
+    .usluge{
+        width: 95vw;
+        height: 35vh;
+    }
+    .usluga-card{
+        width: 24%;
+        justify-content: center;
+    }
+    .usluge_icons_text h1{
+        font-size: 24px;
+    }
+    .usluge_icons_text p{
+        font-size: 14px;
+    }
+    .usluge-title{
+        height: 25%;
+    }
+    .usluge-cards{
+        height: 70%;
+    }
+    .usluga-card img {
+        width: 58px;
+        height: 58px;
+        margin: 0;
+      }
+}
+@media only screen and (max-width:768px){
+    .usluge{
+        height: 40vh;
+    }
+    .usluge-title{
+        height: 18%;
+    }
+    .usluga-card2{
+        display: none;
+    }
+    .usluge-title h1{
+        font-size: 36px;
+    }
+    .usluge-title p{
+ font-size: 14px;
+    }
+    .usluge-cards{
+        height: 70%;
+    }
+    .usluga-card{
+        width: 45%;
+    }
+    .usluga-card img {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+      }
+      .usluge_icons_text h1{
+        margin: 4px;
+        font-size: 20px;
+    }
+    .usluge_icons_text p{
+        margin: 4px;
+        font-size: 12px;
+    }
+}
