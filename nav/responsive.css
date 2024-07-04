@@ -1,29 +1,30 @@
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1265px) {
     .burger {
         display: block;
     }
 
     .nav-container {
-        position: fixed;
-        top: 105px;
+        position: absolute;
+        top: 65px;
         height: 100vh;
-        width: 100%;
-        right: 0;
+        left: 0;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-bottom: 150px;
+        padding-bottom: 100px;
         font-size: 20px;
         background: #f7f7f7;
         transform: translateY(-120%);
         transition: transform 0.5s ease;
     }
 
-    .button-container {
-        height: 45px;
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .nav-button {
-        margin-top: 50px;
+    .button-container {
+        height: 45px;
+        margin-top: 100px;
     }
 }

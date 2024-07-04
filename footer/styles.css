@@ -76,6 +76,11 @@ p {
   gap: 70px;
 }
 
+.links,
+.contact {
+  width: 160px;
+}
+
 .informations div img {
   margin: 20px 0 5px;
 }
