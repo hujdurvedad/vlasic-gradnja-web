@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1024px) {
+    .zavrseniHeader h1 {
+        font-size: 48px;
+    }
+
+    .zavrseniHeader p {
+        font-size: 14px;
+    }
+
+    .zavrseniHeader a {
+        font-size: 18px;
+    }
+
+    .projektiWrapper {
+        width: 95vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .zavrseniHeader {
+        flex-direction: column;
+    }
+
+    .zavrseniHeader h1 {
+        font-size: 36px;
+    }
+
+    .zavrseniHeader p {
+        font-size: 14px;
+    }
+
+    .zavrseniHeader a {
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+
+    .projektiWrapper {
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .projekat {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}

@@ -1,64 +1,37 @@
-@media only screen and (max-width:1024px){
-
-    .usluge{
-        width: 95vw;
-        height: 35vh;
+@media only screen and (max-width: 1024px) {
+    .uslugeWrapper {
+      width: 95vw;
+      left: 2.5vw;
     }
-    .usluga-card{
-        width: 24%;
-        justify-content: center;
+    .usluga {
+      padding: 1rem;
     }
-    .usluge_icons_text h1{
-        font-size: 24px;
+    .usluga img {
+      width: 58px;
+      height: 58px;
+      margin-top: 2.75rem;
     }
-    .usluge_icons_text p{
-        font-size: 14px;
+    .usluga h3 {
+      margin-top: 1.25rem;
     }
-    .usluge-title{
-        height: 25%;
+    .usluga p {
+      margin-top: 1rem;
     }
-    .usluge-cards{
-        height: 70%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .uslugeWrapper {
+      width: 95vw;
+      left: 2.5vw;
+      flex-wrap: wrap;
     }
-    .usluga-card img {
-        width: 58px;
-        height: 58px;
-        margin: 0;
-      }
-}
-@media only screen and (max-width:768px){
-    .usluge{
-        height: 40vh;
+    .usluga {
+      width: calc(50% - 2rem);
     }
-    .usluge-title{
-        height: 18%;
+    .usluga:nth-child(even) {
+      margin-right: 0;
     }
-    .usluga-card2{
-        display: none;
+    .usluga:nth-child(odd) {
+      margin-left: 0;
     }
-    .usluge-title h1{
-        font-size: 36px;
-    }
-    .usluge-title p{
- font-size: 14px;
-    }
-    .usluge-cards{
-        height: 70%;
-    }
-    .usluga-card{
-        width: 45%;
-    }
-    .usluga-card img {
-        width: 40px;
-        height: 40px;
-        margin: 0;
-      }
-      .usluge_icons_text h1{
-        margin: 4px;
-        font-size: 20px;
-    }
-    .usluge_icons_text p{
-        margin: 4px;
-        font-size: 12px;
-    }
-}
+  }  

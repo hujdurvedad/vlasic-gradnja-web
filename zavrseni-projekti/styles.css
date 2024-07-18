@@ -1,9 +1,96 @@
 .zavrseni-projekti {
     width: 100%;
-    height: 80vh;
-    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.zavrseniHeader {
+    width: 90vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zavrseniTekst h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.zavrseniTekst p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0.75rem;
+    color: black;
+}
+
+.zavrseniHeader a {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.zavrseniHeader a::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: black;
+    margin-top: 5px;
+}
+
+.projektiWrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 2.5rem;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.projekat {
+    width: calc(50% - 1.25rem);
+    background: #f7f7f7;
+    border-radius: 50px;
+    padding: 1.5rem;
+}
+
+.projekatImg {
+    width: 100%;
+    aspect-ratio: 2.3/1;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+        url("https://s3-alpha-sig.figma.com/img/8048/7c5e/8ec8c0f1bdb0deb7dd8cc590034a6001?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aHWCi24ELn0I-who9p~5r9GRy9xoZachDiU1cc27hLgOq7fJDqrxPXIvMC9zbVwlMNUQHdXK4Ku7DB3huzOkRC3j3Plfcn1eYzr05C23HDhUsbBjCIZl3ZxumHInELnegGw2xDcBo1lKqAf5M7LHLpPHaTR-kzzPhGVbfC9tBh~OAKgPZeS7Tqm7D9oMXP3g1FvPDvMsWg-VkMNDa6txR7mXV9SQome8RlWBd-dzrT8nDx5IH5cuL~4u7VtZNWAy5STjORKAK4ygMU1xEezuK8NvnFNofc19FcVNazkJER9AYKRgMbDFr3RGLJOhkXBEUFf1xCkhpkEdmQITsW8f9A__");
+    background-size: cover;
+    background-position: center;
+    border-radius: calc(50px - 1.5rem);
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.projekat h2 {
     text-align: center;
-    color: white;
-    padding-top: 50px;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.projekat p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 1.5rem 0;
+    color: black;
+}
+
+.projekat:nth-child(odd) {
+    margin-left: 0;
+}
+
+.projekat:nth-child(even) {
+    margin-right: 0;
 }

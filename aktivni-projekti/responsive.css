@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1024px) {
+
+    .aktivni-projekti {
+        height: 50vh;
+    }
+
+    .aktivniWrapper {
+        height: 100%;
+    }
+
+    .aktivniTitle h1 {
+        font-size: 52px;
+    }
+
+    .aktivniTitle p {
+        font-size: 16px;
+    }
+
+    .aktivniCard {
+        width: 31%;
+    }
+
+    .aktivniCardsWrapper {
+        margin-bottom: 40rem;
+    }
+
+    .aktivnitxt h1 {
+        font-size: 17.06px;
+    }
+
+    .aktivnitxt p {
+        font-size: 10.23px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .aktivni-projekti {
+        height: 60vh;
+    }
+
+    .aktivniCard {
+        width: 45%;
+
+    }
+
+    .aktivniTitle {
+        width: 77%;
+        text-align: center;
+    }
+
+    .aktivniTitle h1 {
+        font-size: 36px;
+    }
+
+    .aktivniTitle p {
+        font-size: 14px;
+    }
+
+    .aktivnitxt h1 {
+        font-size: 17.06px;
+    }
+
+    .aktivnitxt p {
+        font-size: 10.23px;
+    }
+
+    .aktivnitxt {
+        white-space: normal;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+}
